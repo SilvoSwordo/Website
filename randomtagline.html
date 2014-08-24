@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var taglines = ["We do it for free","Real reviews","100% organic","no homo","Head mod at /V/","Vivian James <3"];
+function rantag()
+{
+return Math.floor(Math.random() * taglines.length);
+}
+document.getElementById("demo").innerHTML = taglines[rantag()];
+</script>
+
+</body>
+</html>
